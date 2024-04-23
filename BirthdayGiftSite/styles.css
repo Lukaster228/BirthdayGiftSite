@@ -1,0 +1,109 @@
+body {
+    font-family: "Happy Monkey", sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background: #a2d2ff;
+    text-shadow: 0 0 1px black;
+    background: linear-gradient(lightblue, pink);
+}
+
+#person-photo {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
+
+#person-years {
+    background: #EFB0C9;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 0;
+}
+
+#person-dob {
+    background: #EFB0C9;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-cover-div {
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-cover-div1:hover {
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGR4MmpwZTZ2cHhzM2oxY2x2aWdncmgya2J6MXZwZ3RxNzRoNjFtdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/chzz1FQgqhytWRWbp3/giphy.gif");
+}
+
+#gift-cover-div2 {
+    margin-top: 15px;
+}
+
+#gift-cover-div2:hover {
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDk1MmJvaDkwZTJnZXljaHI4dG1yeW5vbXVidjVtbXJzbTY3NWk2ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ckB5razpgN2rd4qTfe/giphy.gif");
+}
+
+#gift-cover-div3 {
+    margin-top: 15px;
+}
+
+#gift-cover-div3:hover {
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWtjZTIwZWxyNzliM3E5cjJnazQ2c285bGQ2anZnNWZscWxlNHIybSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9eTPK1vYwxjGAL7bMf/giphy.gif");
+}
+
+#gift-cover-div4 {
+    margin-top: 15px;
+}
+
+#gift-cover-div4:hover {
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDgwa3p6YnlseTV6cGV3ODc0MWV0ZGk0OXZhcGVsZWZya21iODViOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BIuuwHRNKs15C/giphy.gif");
+}
+
+#gift-cover-div5 {
+    height: 200px;
+    margin-top: 15px;
+}
+
+#gift-cover-div5:hover {
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDg3aDBhZ2Ftb2l5aWEwMDQ5ZWp0c2d2Ymd4NjNvN3F3a2NlYmxxeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BPJmthQ3YRwD6QqcVD/giphy.gif");
+}
+
+.gift-title {
+    margin-bottom: 0;
+}
+
+.gift-hint {
+    margin-top: 10px;
+}
+
+#btm-footer {
+    width: 450px;
+    margin: 50px auto 0 auto;
+    font-style: italic;
+    font-size: larger;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#course-link {
+    text-decoration: underline;
+    color: white;
+}
